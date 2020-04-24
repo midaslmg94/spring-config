@@ -1,6 +1,9 @@
 loggin:
   config: classpath:logback-${spring.profiles.active}.xml
-
+  
+server:
+  port: 8080
+  
 spring:
   datasource: 
     connection-test-query: select 1
