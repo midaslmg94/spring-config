@@ -2,7 +2,7 @@ loggin:
   config: classpath:logback-${spring.profiles.active}.xml
   
 server:
-  port: 8888
+  port: 8080
   
 spring:
   datasource: 
